@@ -129,12 +129,12 @@ export class product {
 
 
 
-//let productList = new productManager('./static/productos.txt')
+//lslet productList = new productManager('./static/productos.txt')
 //const producto1 = new product('uno', 'decripcion producto uno', 30.0, 'imagen', '001', 20)
-//const producto2 = new product('dos', 'decripcion producto uno', 30.0, 'imagen', '001', 20) //producto con codigo repetido
+//const producto2 = new product('dos', 'decripcion producto uno', 30.0, 'imagen', '005', 20) //producto con codigo repetido
 //const producto3 = new product('tres', 'decripcion producto uno', 30.0, 'imagen', '002', 20)
 //const producto4 = new product('cuatro', 'decripcion producto uno', 30.0, 'imagen', '003', 20)
-//const producto5 = new product('cinco', 'decripcion producto uno', 30.0, 'imagen', '004') // producto con falta de datos
+//const producto5 = new product('cinco', 'decripcion producto uno', 30.0, 'imagen', '004',40) // producto con falta de datos
 
 //await productList.addProduct(producto1)
 //await productList.addProduct(producto2)
