@@ -53,9 +53,20 @@ export class productManager {
 
     }
 
-    async getProducts() {
+    async getProducts(newLong) {
+        let newArrray
         await this.loadProducts()
-        return this.products
+        let oldLong = this.products.length
+        if (newLong >= oldLong || newLong == undefined) {
+            newArrray = this.products
+        }
+        else {
+            let diff = newLong - oldLong
+            newArrray = this.products.slice(0, diff)
+            
+        }
+        return newArrray
+
     }
 
     async getProductById(i) {

@@ -62,5 +62,32 @@
     "thumbnail": "imagen",
     "code": "007",
     "stock": 24
+  },
+  {
+    "id": 8,
+    "title": "ocho",
+    "description": "decripcion producto ocho",
+    "price": 30,
+    "thumbnail": "imagen",
+    "code": "005",
+    "stock": 450
+  },
+      {
+    "id": 9,
+    "title": "nueve",
+    "description": "decripcion producto nueve",
+    "price": 30,
+    "thumbnail": "imagen",
+    "code": "006",
+    "stock": 23
+  },
+      {
+    "id": 10,
+    "title": "diez",
+    "description": "decripcion producto diez",
+    "price": 30,
+    "thumbnail": "imagen",
+    "code": "007",
+    "stock": 24
   }
 ]

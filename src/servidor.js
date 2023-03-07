@@ -9,13 +9,14 @@ const app = express()
 
 
 app.get('/ruta/products', (peticion, respuesta) => {
-    JSON.stringify(productList.getProducts()
+    JSON.stringify(productList.getProducts(peticion.query.limit)
         .then(prom => respuesta.send(prom))
         .catch(
             error => {
                 console.error( 'Error: ', error );
               }
         ))
+        
 })
 
 app.get('/ruta/products/:pid', (peticion, respuesta) => {
